@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-image: url(full-bloom.png);
+    color: #777;
+}
+
+.bg-light {
+    background-color: rgb(202,149,90)!important;
+}
+
+.navbar-nav {
+    margin-left: 910px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: .3rem;
+    padding-right: 0;
+    color: 	rgb(149,64,82);
+}
+
+.media {
+    color: #777;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+img {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.extra-text {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    color: 	rgb(149,64,82);
+}
+
+h4 {
+    background-color: rgb(202,149,90);
+    color: 	rgb(149,64,82);
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    position: relative;
+    float: right;
+    top: -55px;
+    right: 25px;
+}
+
+.row {
+    padding: 22px;
+}
+
+.form-control:focus {
+    border-color: rgb(202,149,90);
+    box-shadow: 0 0 0 0.2rem rgba(202,149,90);
+}
+
+.btn-primary {
+    background-color: rgb(202,149,90);
+    color: rgb(149,64,82);
+    border-color: rgb(202,149,90);
+}
+
+.btn-primary:hover {
+    background-color: rgb(149,64,82);
+    color: rgb(202,149,90);
+    border-color: rgb(149,64,82);
+}
+
+.btn-primary:focus {
+    background-color: rgb(149,64,82);
+    color: rgb(202,149,90);
+    border-color: rgb(149,64,82);
+    box-shadow: 0 0 0 0.2rem rgba(149,64,82);
+}
