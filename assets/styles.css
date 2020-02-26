@@ -82,3 +82,15 @@ h4 {
     border-color: rgb(149,64,82);
     box-shadow: 0 0 0 0.2rem rgba(149,64,82);
 }
+
+.card {
+    border: 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-footer {
+    padding: 0;
+}
