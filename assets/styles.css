@@ -76,10 +76,17 @@ h4 {
     border-color: rgb(149,64,82);
 }
 
-.btn-primary:focus {
+.btn-primary:active {
     background-color: rgb(149,64,82);
     color: rgb(202,149,90);
     border-color: rgb(149,64,82);
+    box-shadow: 0 0 0 0.2rem rgba(149,64,82);
+}
+
+.btn-primary:focus {
+    background-color: rgb(202,149,90);
+    color: rgb(149,64,82);
+    border-color: rgb(202,149,90);
     box-shadow: 0 0 0 0.2rem rgba(149,64,82);
 }
 
@@ -93,4 +100,12 @@ h4 {
 
 .card-footer {
     padding: 0;
+}
+
+#icon {
+    margin: 0;
+}
+
+.footer-copyright {
+    font-size: 14px;
 }
